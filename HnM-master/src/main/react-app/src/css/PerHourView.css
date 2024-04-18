@@ -1,0 +1,69 @@
+.wrap {
+    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.titleperhour {
+    font-size: 35px;
+    margin-bottom: -5px;
+    text-align: start;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.selectBoxPerhourView {
+    margin-top: 25px;
+    width: 328px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ulperhourView {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ulperhourView .liperhourView {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 6px;
+    width: 400px; 
+}
+
+.ulperhourView .liperhourView span {
+    display: block; 
+    
+}
+
+.ulperhourView .liperhourView span:first-child {
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    color: cornflowerblue;
+    font-size: 20px;
+}
+.ulperhourView .liperhourView span:last-child {
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    margin-left: 11px;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.perhourviewBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.perhourviewBtn:hover {
+    background-color: #555;
+}

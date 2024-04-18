@@ -1,0 +1,80 @@
+.studentTable{
+    width: 100%;
+    background-color: #f5f5f5 ;
+}
+
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+}
+
+.studentView-header{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+   
+}
+
+.tr1, .tr2, .tr3, .tr4, .tr5{
+    border: 1px solid #cccccc;
+}
+.tr1>td, .tr2>td, .tr3>td, .tr4>td, .tr5>td{
+    border: 1px solid #cccccc;
+}
+
+.defaultdata{
+    background-color: #dbecec;
+    width: 155px;
+}
+
+#prodcheck_0 { 
+    display: flex;
+    justify-content: center;
+}
+
+.firstBox{width: 10px;
+
+}
+.secondBox{width: 20px;}
+
+.box-photo{
+    width: 50px; height: 130px;
+}
+
+.pagination_PN{
+
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+.pagination_PN button{
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nullpage{
+    background-color: #F5F5F5;
+    border-left:0px solid #F5F5F5;
+    border-right:0px solid #F5F5F5;
+
+}
+
+.btn-type-upload {
+
+    height: 30px;
+    padding: 1 20px;
+    vertical-align: top;
+    background: #fff;
+    border: 1px solid #acacac;
+    margin-right: 5px;
+}
+
+
+.excel-icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -8px;
+    padding-right: 10px;
+}

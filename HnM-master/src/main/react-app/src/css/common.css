@@ -1,0 +1,8 @@
+body {
+    font-size: 16px;
+}
+
+
+.flexBox {display: flex; flex-flow: row wrap;}
+
+button{cursor: pointer;}

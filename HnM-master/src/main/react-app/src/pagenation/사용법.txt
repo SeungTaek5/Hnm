@@ -1,0 +1,24 @@
+1. import Pagination from "../pagenation/Pagination"; // 페이지네이션
+
+2. function 함수 안에  const itemPerPage = 페이지수; 추가 
+
+3. function 함수 안에  const [Page, setPage] = useState(초기값); 추가
+
+4. 데이터 받아오는 부분 아래 
+    const RenderXXXXXX = ({data}) => (
+        페이지네이션 할 data 세팅? 값 
+        (원래 리턴에 넣는부분)
+    )
+
+5. return (<>
+    <Pagination 
+        data={XXXXXData}
+        itemPerPage={itemPerPage}
+        RenderComponent={RenderXXXXXX}
+        />
+    </>)
+
+
+====================================================================
+
+

@@ -1,0 +1,29 @@
+.scrollWrap {max-height: calc(100vh - 300px); overflow-y: scroll;}
+
+.dragWrap > .container {height: 50px; margin-bottom: 20px;}
+.dragWrap > div {display: flex; flex-flow: row wrap;}
+
+.dragBox {
+    width: 50px; height: 50px; border: 1px solid #ddd;
+}
+
+.exelWrap {
+    width: 100%;
+    display: flex; flex-flow: row wrap;
+}
+
+.dayBox {width: calc(50% - 10px); border: 1px solid #ddd; margin-bottom: 50px;}
+.dayBox:nth-child(2n) {margin-left: 20px;}
+
+.dayTop {background-color: #acb9ca; padding: 20px 0; text-align: center; font-size: 30px; font-weight: 900;}
+
+.classWrap,.timeLine {display: flex; width: 100%; border-top: 1px solid #ccc;}
+.classWrap .clname,.timeLine .containerWrap {border-left: 1px solid #ccc;}
+
+.clname {display: flex; align-items: center; justify-content: center;  font-size: 18px; font-weight: 600; background-color: #d6dce4; padding: 10px 0;}
+
+.classTime {width: 80px; background-color: #d6dce4; display: flex; justify-content: center; align-items: center;}
+
+.containerBox {flex: 1; padding: 5px;}
+.containerBox .container {width: 100%; height: 55px;}
+.containerBox input {width: 100%;}

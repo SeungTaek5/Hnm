@@ -1,0 +1,243 @@
+.searchImgBtn{
+    background : #7d7d7d url("../img/searchBtn.png")no-repeat 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: 1px;
+    border: solid 1px #808080;
+    cursor: pointer;
+}
+
+.counselInner{
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+}
+
+.counselInsertInner{
+    display: flex;
+    flex-direction: column;
+}
+
+.counselInsertInner div{
+    margin: 5px;
+}
+
+#counselStudentSelect{
+    position: static !important;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 200px;  
+    padding: 0 !important;
+}
+#counselInsertWrap>.cInsertH3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.cInsertIndexName>.ciNameIcon{
+    background-color: #0a6b21;
+    width: 5px;
+    height: 3px;
+    margin: 0;
+    padding: 0;
+}
+.cInsertIndexName{
+    display: flex;
+    align-items: center;
+    width: 90px;
+}
+.cInsertIndexName>.ciName{
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ciElement{
+    display: flex;
+}
+
+.ciInput{
+    height: 36px !important;
+    padding: 0 5px; 
+    width: 240px;
+}
+.selectStudentInput{
+    width: 200px;
+}
+.diEnterDate{
+    border: solid 1px #ccc;
+}
+.ci_inner div{
+    margin: 5px;
+}
+.ci_inner{
+    margin: 30px 0 ;
+}
+.ciContent{
+    width: 800px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.cInsertIndexTitle{
+    width: 55px !important;
+}
+.ciTitle{
+    width: 750px;
+    height: 36px !important;
+}
+.ciContentDiv{
+    margin: 10px 5px !important;
+}
+.counselInsertWrap{
+    margin: 30px;
+}
+.ciBtnBox{
+    width: 100%;
+    border-top: 2px solid black;
+    padding: 25px 0;
+}
+.ciBtnBox > button{
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+}
+.ciEnterBtn{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.ciCancelBtn{
+    background-color: white;
+    color: black;
+    border: 1px solid #dcdcdc;
+}
+.sSearch_inner{
+    min-height: 250px;
+}
+.sStudent_innerTop>button{
+    background-color: #363636;
+    color: white;
+    padding: 0 20px;
+    height: 30px;
+}
+.sStudent_innerTop{
+    display: flex;
+    padding: 0 45px;
+    justify-content: space-between;
+}
+#searchStudentName{
+    display: block;
+    width: 150px;
+    margin-right: 30px;
+}
+.sSearchName{
+    width: 60px !important;
+}
+.sSearchCloseBtn{
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    width: 110px;
+}
+.sSearchCloseBtnBox{
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+.sSearchResult_element{
+    font-size: 14px;
+}
+.sSearchResult{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 100px;
+    margin: 20px;
+}
+.sSearchResult_inner{
+    display: flex;
+}
+.sSearchResult>button{
+    width: 80px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 10px;
+}
+.cdElement{
+    display: flex;
+    margin: 20px 0;
+    margin-right: 80px;
+}
+.cdIndexName{
+    width: 100px;
+    margin-right: 5px;
+}
+.ciName{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.sdInnerWrap{
+    display: flex;
+}
+.sdInner_bottom{
+    margin: 20px 0;
+}
+.cdContentTextarea{
+    border: 1px solid #ccc;
+    width: 800px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.cdContentWrap{
+    display: flex;
+    flex-direction: column;
+}
+.cdBtnBox{
+    border-top: 2px solid black;
+    margin-top: 35px;
+    padding-top: 25px;
+}
+.cdUpdateBtn{    
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.cdShowListBtn{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+    color: black;
+}
+.cdMainWrap{
+    margin: 15px 30px;
+}
+.cdHeader{
+    font-size: 18px;
+    font-weight: bold;
+}
+.ciName>div{
+    font-size: 14px;
+}
+.sSHeader{
+    background-color: #004b54;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sStudentMain{
+    padding: 20px;
+}

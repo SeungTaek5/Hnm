@@ -1,0 +1,333 @@
+#adminListTable tbody >tr>td{    
+    border: 1px solid #ccc;
+}
+#adminListTable thead >tr>th{    
+    border: 1px solid #ccc;
+}
+
+#adminListTable{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+#adminListTable tr{
+    height: 28px;
+}
+
+#adminListTable th{
+    font-weight: bold;
+}
+
+#adminListTable th,td{
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#adminListTable thead{
+    background-color: #dbecec;
+}
+
+.retire {
+    background-color: #ababab !important;
+}
+
+.adminManageModal{
+    width: 1530px;
+    height: 75%;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 0 10px 5px #e8e8e8;
+    margin-top: 150px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+.nickUpdateBtn{
+    background-color: #e8e8e8 ;
+}
+
+.nickUpdateModal{    
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 0 10px 5px #e8e8e8;
+    margin-top: 300px;
+    border: 1px solid #dcdcdc;
+}
+
+.authBtn{
+    background-color: #363636;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.adminInfoCheck{
+    width: 15px;
+}
+.authBtnDiv{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.adminDeleteBtn{
+    background-color: #7d7d7d;
+    color: white;
+    cursor: pointer;
+}
+.adminDeleteBtnDiv{
+    display: flex;
+    justify-content: right;  
+    width: 100%;
+    margin-top: 10px;  
+}
+.nickUpdateBtn{
+    height: 30px;    
+    padding: 3px 10px;
+    background-color: #363636;
+    color: white;
+    cursor: pointer;
+}
+.adminNicknameDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.insertGroupHeader{
+    background-color: #004b54;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.adminGroupModal{
+    width: 480px;
+    height: 85%;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 0 10px 5px #e8e8e8;
+    margin-top: 150px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+.adminGroupModal_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 상단과 하단에 공간을 동일하게 배분합니다. */
+    height: 100%; /* 부모 요소의 높이를 100%로 설정합니다. */
+  }
+  
+  .insertGroupFooter {
+    margin-top: auto; /* 상단 여백을 자동으로 설정하여 하단으로 이동합니다. */
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #a0a0a0;
+  }
+  .insertGroupFooterBtn{
+    background-color: black;
+    color: white;
+    margin: 20px 5px;
+    width: 50px;
+    font-size: 14px;    
+    cursor: pointer;
+  }
+  .insertGroupMain{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .insertGroupMain_element{
+    display: flex;
+    border-bottom: 1px solid #a0a0a0 ;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+  }
+  .insertGroupMain_element > input{
+    width: 15px;
+    margin-right: 20px;
+  }
+  #authChoose > h3{
+    background-color: #004b54;
+    color: white;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #authChoose{
+    display: flex;
+    flex-direction: column;
+  }
+  .authInsertMain{
+    display: flex;
+  }
+  .insertAuthFooter{
+    text-align: center;
+    width: 96%;
+    margin: 0 auto;
+    border-top: 1px solid #a0a0a0;
+  }
+  .insertAuthFooter > button{
+    background-color: black;
+    color: white;
+    margin: 20px 5px;
+    width: 50px;
+    font-size: 14px;    
+    cursor: pointer;
+  }
+  .authInsertMain{
+    margin: 50px;
+  }
+.updateGroupDiv > h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.updateGroupDiv{
+    width: 260px;
+}
+.deleteGroupBtnDiv{
+    border: 1px solid;
+}
+.updateGroupInput{
+    height: 36px !important;
+    width: 220px;
+}
+.authGroupListDiv{  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.authGroupListDiv_last{
+    border-bottom: 1px solid #ccc;
+}
+.authGroupListDiv >div{
+    align-items: center;
+    display: flex;    
+}
+.deleteGroupBtn{
+    background: url(../img/deleteGroupBtn.png) no-repeat 50%;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+}
+.updateGroupBtn{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(../img/insertGroupBtn.png) no-repeat 50%;
+    background-color: #7d7d7d;
+    margin-left: 5px;
+}
+.updateGroupBtnDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.groupRadio{
+    width: 15px;
+    display: block;
+    padding: 0 !important;
+}
+.groupRadioDiv{    
+    padding: 5px 15px;
+    border-right: 1px solid #ccc;
+}
+.authGroupListName{
+    margin: 0 15px;
+}
+.authCategoryWrap{
+    display: flex;
+    flex-direction: column;
+    margin:0 30px;
+}
+.authCategoryWrap>h3{
+    font-weight: bold;
+}
+.authCategory_inner{
+    display: flex;
+}
+.mainCategory_header{
+    padding: 13px;
+    text-align: center;
+    background-color: #7d7d7d;
+    border: 1px solid #7d7d7d;
+    font-weight: bold;
+    color: white;
+}
+.categoryList_block{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.subCategoryList_block{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.subListInput{
+    display: block;
+    width: 15px;
+}
+.subCategory_element{
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.subCategory_element div{
+    margin-left: 5px;
+}
+.isertNickHeader{
+    background-color: #004b54;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+.newNick{
+    display: block;
+}
+.nickInner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px 0;
+}
+.nickInner>button{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 10px;
+}
+.nickBtnBox{
+    border-top: 1px solid black;
+    margin: 0 15px;
+    text-align: center;
+    padding: 5px 0;
+}
+.nickBtnBox>button{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid #dcdcdc;
+}
+
+
+

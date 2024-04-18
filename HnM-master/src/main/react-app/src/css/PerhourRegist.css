@@ -1,0 +1,81 @@
+.perhourRegistTable{
+    display: flex;
+    justify-content: left;
+}
+
+.teacher{
+    display: inline;
+    text-align: start;
+}
+
+.perhour {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    font-size: 35px;
+    padding: 40px;
+}
+
+.perhourButton {
+    background-color: #363636 !important;
+    color : white !important;
+}
+.termfont{
+    font-size: 35px;
+    display: flex;
+    padding: 40px;
+}
+.termSelect{
+    width : 180px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+.teachermfont{
+    font-size: 35px;
+    display: flex;
+    padding: 40px;
+}
+.teacherSelect{
+    width : 180px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+.term {
+    display: inline;
+    text-align: start;
+    
+}
+
+.termSelect,
+.teacherSelect {
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.perhourButton {
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.perhourButton:hover {
+   
+    background-color: #555;
+}
+
+.perhour input[type="text"] {
+    width: 180px; 
+    height: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px; 
+    margin-left: 19px;
+}
